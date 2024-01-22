@@ -14,17 +14,25 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I&apos;m <span className="text-[#127082]">Jyotirmoy</span>
           </h1>
-          <h1 className="py-4 text-gray-700">A Front-End Web Developer</h1>
+          <h1 className="py-4 text-gray-700">A Full Stack Web Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I&apos;m a front-end web developer specializing in building (and
-            ocassionally designing) exceptional digital experiences. Currently
-            I&apos;m focussed on building responsive front-end web applications
-            while learning back-end technologoies
+            I&apos;m a dynamic full-stack developer. I specialize in crafting
+            innovative web applications with a holistic approach to development.
+            Committed to staying updated on industry trends, I deliver
+            high-quality, future-proof solutions that exceed client
+            expectations.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn />
-            </div>
+            <a
+              href="https://www.linkedin.com/in/jyotirmoy37/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaLinkedinIn />
+              </div>
+            </a>
+
             <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
               <FaGithub />
             </div>
