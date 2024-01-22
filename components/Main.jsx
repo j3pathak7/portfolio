@@ -1,6 +1,5 @@
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
@@ -33,15 +32,21 @@ const Main = () => {
               </div>
             </a>
 
-            <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub />
-            </div>
-            <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineMail />
-            </div>
-            <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill />
-            </div>
+            <a
+              href="https://github.com/j3pathak7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaGithub />
+              </div>
+            </a>
+
+            <a href="mailto:jyotirmoypathak.37@gmail.com">
+              <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
+                <AiOutlineMail />
+              </div>
+            </a>
           </div>
         </div>
       </div>
