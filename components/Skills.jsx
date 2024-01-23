@@ -14,28 +14,13 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={"/assets/skills/html.png"}
+                  src={"/assets/skills/node.png"}
                   width="64px"
                   height={"64px"}
                 />
               </div>
               <div className="flex flex-col justify-center items-center">
-                <h3>HTML</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl shadow-sky-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src={"/assets/skills/css.png"}
-                  width="64px"
-                  height={"64px"}
-                />
-              </div>
-              <div className="flex flex-col justify-center items-center">
-                <h3>CSS</h3>
+                <h3>Node</h3>
               </div>
             </div>
           </div>
@@ -74,6 +59,21 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
+                  src={"/assets/skills/next.png"}
+                  width="64px"
+                  height={"64px"}
+                />
+              </div>
+              <div className="flex flex-col justify-center items-center">
+                <h3>Next JS</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl shadow-sky-400 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
                   src={"/assets/skills/tailwind.png"}
                   width="64px"
                   height={"64px"}
@@ -81,6 +81,21 @@ const Skills = () => {
               </div>
               <div className="flex flex-col justify-center items-center">
                 <h3>Tailwind</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl shadow-sky-400 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src={"/assets/skills/mongo.png"}
+                  width="64px"
+                  height={"64px"}
+                />
+              </div>
+              <div className="flex flex-col justify-center items-center">
+                <h3>Mongo DB</h3>
               </div>
             </div>
           </div>

@@ -36,18 +36,31 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsFillPersonLinesFill />
-                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/jyotirmoy37/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://github.com/j3pathak7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaGithub />
+                    </div>
+                  </a>
+
+                  <a href="mailto:jyotirmoypathak.37@gmail.com">
+                    <div className="rounded-full shadow-lg p-6 shadow-sky-400 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <AiOutlineMail />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -57,13 +70,14 @@ const Contact = () => {
 
           <div className="col-span-3 w-full h-auto shadow-xl shadow-sky-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form action="https://formspree.io/f/mdoqaalg" method="POST">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-sky-300"
                       type="text"
+                      name="name"
                     />
                   </div>
                   <div className="flex flex-col">
@@ -73,6 +87,7 @@ const Contact = () => {
                     <input
                       className="border-2 rounded-lg p-3 flex border-sky-300"
                       type="text"
+                      name="phone"
                     />
                   </div>
                 </div>
@@ -82,6 +97,7 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-sky-300"
                     type="email"
+                    name="email"
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -89,6 +105,7 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-sky-300"
                     type="text"
+                    name="subject"
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -96,6 +113,7 @@ const Contact = () => {
                   <textarea
                     className="border-2 rounded-lg p-3 border-sky-300"
                     rows={"10"}
+                    name="message"
                   ></textarea>
                 </div>
 

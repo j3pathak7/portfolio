@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import ReactTypingEffect from "react-typing-effect";
 
 const Main = () => {
   return (
@@ -11,7 +12,10 @@ const Main = () => {
             Let&apos;s build something together
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I&apos;m <span className="text-[#127082]">Jyotirmoy</span>
+            Hi, I&apos;m{" "}
+            <span className="text-[#127082]">
+              <ReactTypingEffect text={["Jyotirmoy"]} />
+            </span>
           </h1>
           <h1 className="py-4 text-gray-700">A Full Stack Web Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">

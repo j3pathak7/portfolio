@@ -18,7 +18,7 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property Finder"
+            title="bFlix - A movie website"
             backgroundImg={bflixImg}
             projectInfo="Next JS project using Tailwind"
             projectUrl="https://bflix-five.vercel.app/"
